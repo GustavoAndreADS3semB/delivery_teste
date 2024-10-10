@@ -24,7 +24,7 @@
   font-size: 16px;
   color: #000000;
   margin: 100px 0;
-  
+
 }
 
 .botao {
@@ -35,7 +35,7 @@
   padding: 15px 40px;
   font-size: 36px;
   cursor: pointer;
-  
+
 }
 
 .botao:hover {
@@ -43,9 +43,9 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .titulo {
-    font-size: 64px; 
+    font-size: 64px;
   }
 
   .subtitulo {
@@ -58,7 +58,7 @@
   }
 
   .botao {
-    font-size: 36px; 
+    font-size: 36px;
     padding: 10px 30px;
   }
 }
