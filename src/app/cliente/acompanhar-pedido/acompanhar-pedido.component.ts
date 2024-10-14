@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Location } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-acompanhar-pedido',
@@ -10,10 +11,16 @@ import { Location } from '@angular/common';
 })
 export class AcompanharPedidoComponent {
 
-  constructor(private location: Location) {} // Injete o Location no construtor
+  constructor(private router: Router, private location: Location) {}
 
   voltarPaginaAnterior() {
-    this.location.back(); // Método que volta à página anterior
+    this.location.back();
+  }
+
+
+  finalizarEntrega() {
+    this.router.navigate(['/finalizacao']);
+
   }
 
 }

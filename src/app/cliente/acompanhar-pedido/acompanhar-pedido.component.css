@@ -10,8 +10,8 @@
 .header {
   width: 100%;
   display: flex;
-  justify-content: space-between; /* Alinha a seta e a casinha nos lados opostos */
-  align-items: center; /* Centraliza verticalmente os ícones */
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
 }
 .header img {
@@ -49,13 +49,13 @@
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: #ccc; /* Cinza para etapas não completas */
+  background-color: #ccc;
   margin-right: 10px;
   margin-bottom: 0;
 }
 
 .status-dot.enviado {
-  background-color: red; /* Destacar etapa ativa */
+  background-color: red;
 }
 
 .status-item span {

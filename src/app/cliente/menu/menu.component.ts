@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
+
 @Component({
   selector: 'app-menu',
   standalone: true, // Marque como standalone
