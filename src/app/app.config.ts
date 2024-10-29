@@ -12,7 +12,7 @@ import { AdicionarPratoComponent } from './gestor/adicionar-prato/adicionar-prat
 
 export const routes: Routes = [
       { path: '', component: HomeComponent },
-      { path: '', component: TelaInicioComponent },
+      { path: 'telainicio', component: TelaInicioComponent },
       { path: 'gestao', component: GestaoComponent },
       { path: 'menu', component: MenuComponent },
       { path: 'adicionar-prato', component: AdicionarPratoComponent },
